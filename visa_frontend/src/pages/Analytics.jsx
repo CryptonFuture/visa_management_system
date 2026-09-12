@@ -16,7 +16,7 @@ import {
   Activity,
 } from 'lucide-react'
 
-const PYTHON_API = import.meta.env.PYTHON_LIVE_URL
+const PYTHON_API = "https://visapython-service.vercel.app/"
 
 export default function Analytics() {
   const [summary, setSummary] = useState(null)
