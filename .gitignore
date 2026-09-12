@@ -2,9 +2,11 @@ node_modules/
 dist/
 build/
 .env.local
+visa_frontend/.env
 *.log
 __pycache__/
 *.pyc
 .venv/
 venv/
 .DS_Store
+
