@@ -16,7 +16,7 @@ import {
   Activity,
 } from 'lucide-react'
 
-const PYTHON_API = 'http://localhost:8002'
+const PYTHON_API = import.meta.env.PYTHON_LIVE_URL
 
 export default function Analytics() {
   const [summary, setSummary] = useState(null)
