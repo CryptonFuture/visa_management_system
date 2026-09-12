@@ -21,7 +21,7 @@ app.use('/api/applications', require('./routes/applications'));
 app.use('/api/appointments', require('./routes/appointments'));
 app.use('/api/dashboard', require('./routes/dashboard'));
 
-app.get('/api/health', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ status: 'OK', message: 'Visa Management Backend running', timestamp: new Date() });
 });
 
